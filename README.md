@@ -103,6 +103,7 @@ SSIM moves a window over the image to capture structural similarities, encompass
 ### 📈 **Metric Trends Analysis**
 ####  **SSIM Distribution**  
  ![SSIM](results/ssim.PNG)
+ 
 Structural similarity fluctuates between **0.2–0.6**, indicating inconsistent recognition of compositional patterns.  
 Peaks suggest occasional success with similar portrait styles.  
 
@@ -111,6 +112,7 @@ Persistent high errors (~1.9–2.0) across samples reveal fundamental feature mi
 
 ####  **Retrieval Effectiveness**
 ![Precision](results/precision_at_5.PNG) | ![Recall](results/recall_at_5.PNG)
+
 - Both **precision** and **recall** remain below 0.2 for most samples, indicating:  
   - Poor metadata integration (artist/style weights)  
   - Suboptimal visual feature matching  
