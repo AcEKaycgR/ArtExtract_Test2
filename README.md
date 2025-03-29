@@ -3,7 +3,7 @@ This project explores advanced image similarity techniques using paintings from 
 
 ## 🔎Approach
 
-### Data Pipeline [[main.py](main.py)]
+### Data Pipeline [[main.py](Art_Extract_Test2.ipynb)]
 1. **Source**: 10,000+ paintings from [NGA OpenData](https://github.com/NationalGalleryOfArt/opendata)
 2. **Filtering**:
    - Paintings/portraits with metadata (artist, style, medium)
@@ -111,7 +111,7 @@ Peaks suggest occasional success with similar portrait styles.
 Persistent high errors (~1.9–2.0) across samples reveal fundamental feature mismatches, likely due to ineffective face cropping or style variations.  
 
 ####  **Retrieval Effectiveness**
-![Precision](results/precision_at_5.PNG) | ![Recall](results/recall_at_5.PNG)
+![Precision](results/precision_at_5.png) | ![Recall](results/recall_at_5.png)
 
 - Both **precision** and **recall** remain below 0.2 for most samples, indicating:  
   - Poor metadata integration (artist/style weights)  
