@@ -66,7 +66,7 @@ Comprehensive evaluation using both traditional CV metrics and information retri
 | **RMSE** | `√(Σ(pixels_diff²)/n)` | Pixel-level accuracy |
 | **SSIM** | [Structural Formula](https://en.wikipedia.org/wiki/Structural_similarity) | Perceptual similarity |
 
-![Evaluation Visualizations](results/similar_images.png)
+![Evaluation Visualizations](nga_data/similar_images.png)
 
 **[2] Quantitative Score ($RMSE , SSIM$)**
 
