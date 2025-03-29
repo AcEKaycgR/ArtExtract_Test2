@@ -102,7 +102,7 @@ SSIM moves a window over the image to capture structural similarities, encompass
 
 ### 📈 **Metric Trends Analysis**
 ####  **SSIM Distribution**  
- ![SSIM](results/ssim.PNG)
+ ![SSIM](results/ssim.png)
  
 Structural similarity fluctuates between **0.2–0.6**, indicating inconsistent recognition of compositional patterns.  
 Peaks suggest occasional success with similar portrait styles.  
